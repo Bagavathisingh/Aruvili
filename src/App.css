@@ -1,0 +1,53 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.back{
+    background: #00A651;
+}
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+}
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 45px;
+}
+.inter-logo{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+}
+.backBtn{
+  background-image: url(./assets/btnBack.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.drone-back{
+  background-image: url(./assets/drone.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.img{
+  background-image: url("./assets/Arrow.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  rotate: 180deg;
+  filter:drop-shadow(1px 1px 5px black);
+}
