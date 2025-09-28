@@ -585,7 +585,7 @@ export default function MainPageContent() {
               >
                 <button
                 onClick={()=>{
-                  window.location.href = "http://localhost:3000"
+                  window.location.href = "https://agro-aruvili.vercel.app"
                 }}
                  className="bg-green-500 border hover:scale-103 hover:bg-green-600 text-white font-semibold py-3 px-8 rounded-lg transition duration-400 ease-in-out shadow-lg hover:shadow-xl">
                   Start Your Smart Farming Journey
